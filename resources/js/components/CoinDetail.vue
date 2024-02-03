@@ -49,9 +49,6 @@ const coin = ref({});
 const route = useRoute();
 const loading = ref(false);
 
-let d=  dateFormat('10/10/2023', 'LLLL');
-console.log(d);
-
 const loadData = async () => {
   loading.value = true;
   const id = route.params.id;
