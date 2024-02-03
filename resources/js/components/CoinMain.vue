@@ -35,7 +35,7 @@
 </template>
 
 <script setup>
-import axios from 'axios';
+import httpRequest from '../Services/Http';
 import { useRouter } from 'vue-router';
 import { ref, computed, onMounted } from 'vue';
 import LoadingData from './LoadingData.vue';
@@ -73,7 +73,7 @@ const loadData = async () => {
 
   loading.value = true;
   
-  const response = await axios.get('/api/coins/markets?vs_currency=usd');
+  const response = await httpRequest.get('/api/coins/markets?vs_currency=usd');
   if (response.status === OK) {
     itemList.value = response.data.data;
   }

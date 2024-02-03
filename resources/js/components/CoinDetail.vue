@@ -37,7 +37,7 @@
 </template>
 
 <script setup>
-import axios from 'axios';
+import httpRequest from '../Services/Http';
 import { ref, onMounted } from 'vue';
 import { useRoute } from 'vue-router';
 import LoadingData from './LoadingData.vue';
@@ -52,7 +52,7 @@ const loading = ref(false);
 const loadData = async () => {
   loading.value = true;
   const id = route.params.id;
-  const response = await axios.get('/api/coins/'.concat(id));
+  const response = await httpRequest.get('/api/coins/'.concat(id));
 
   if (response.status === OK) {
 
