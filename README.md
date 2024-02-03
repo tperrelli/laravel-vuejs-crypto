@@ -45,8 +45,6 @@ multiples vendors at same time. Isn't great?
 
 Now that we've previously covered `CoinManager`, I can tell that our `CoinRepository` acesses our provider that consumes `Gecko` api and fetches whathever we need. 
 
-### CoinManager
-
 ## Coder
 
 You might be probably thinking who was the one responsible for this. [Check me out](https://linkedin.com/in/tperrelli).
