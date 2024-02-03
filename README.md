@@ -16,6 +16,10 @@ We might you want to make sure that our tests are all passing. Shall we check th
 
 `./vendor/bin/phpunit`
 
+Or, if you rather see some interface tests working, just run the following
+
+`npm run test`
+
 ## Serving the application
 
 Now that we have the application fully installed, we need to serve it. Let's do it!

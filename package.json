@@ -3,21 +3,25 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "test": "vitest"
     },
     "devDependencies": {
         "@popperjs/core": "^2.11.6",
         "@vitejs/plugin-vue": "^4.5.0",
+        "@vue/test-utils": "^2.4.0-alpha.2",
         "axios": "^1.6.4",
         "bootstrap": "^5.2.3",
         "laravel-vite-plugin": "^1.0.0",
         "sass": "^1.56.1",
         "vite": "^5.0.0",
+        "vitest": "^1.2.2",
         "vue": "^3.2.37",
         "vue-router": "^4.2.5"
     },
     "dependencies": {
         "currency-formatter": "^1.5.9",
-        "dayjs": "^1.11.10"
+        "dayjs": "^1.11.10",
+        "happy-dom": "^13.3.8"
     }
 }
