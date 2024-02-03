@@ -47,6 +47,10 @@ Now that we've previously covered `CoinManager`, I can tell that our `CoinReposi
 
 ### CoinManager
 
+## Coder
+
+You might be probably thinking who was the one responsible for this. [Check me out](https://linkedin.com/in/tperrelli).
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
