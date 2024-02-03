@@ -5,6 +5,10 @@ In order to install the application you need to execute the following commands
 ### 1. composer install
 ### 2. npm install
 
+## Configuration
+
+You probably might want to use your own `Gecko` key so let's do it. Open `config/coin.php` file in you projects and add both your url and key there.
+
 ## Running tests
 
 We might you want to make sure that our tests are all passing. Shall we check them? To do so, just run the next command in your cli terminal.
