@@ -2,8 +2,9 @@
 
 In order to install the application you need to execute the following commands
 
-### 1. composer install
-### 2. npm install
+`composer install`
+
+`npm install`
 
 ## Configuration
 
@@ -13,14 +14,17 @@ You probably might want to use your own `Gecko` key so let's do it. Open `config
 
 We might you want to make sure that our tests are all passing. Shall we check them? To do so, just run the next command in your cli terminal.
 
-### ./vendor/bin/phpunit
+`./vendor/bin/phpunit`
 
 ## Serving the application
 
 Now that we have the application fully installed, we need to serve it. Let's do it!
 
-### 1. php artisan serve
-### 2. npm run dev
+`php artisan serve`
+
+Make sure you're running it under port 8000, since this is the default set on .env.example. Otherwise it won't work
+
+`npm run dev`
 
 ## Design Decisions
 
